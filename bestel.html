@@ -1,0 +1,42 @@
+<html>
+	<head>
+	<link href="js/script.js">
+		<title>Home</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js">
+	</script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+		</script>
+	</head>
+
+	<body>
+		<div id="menubar">
+			<ul>
+				<a href="index.html">Home</a>
+				<a href="verzamel.html">Verzamel</a>
+				<a href="bestel.html">Bestel</a>
+				<a href="agenda.html">Agenda</a>
+				<a href="locatie.html">Locatie</a>
+			</ul>
+		</div>
+		<fieldset data-role="controlgroup">
+    		<legend>bestel hier je kaartjes</legend>
+        	<input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked">
+        	<label for="radio-choice-1">justin bieber</label>
+        	<input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2">
+        	<label for="radio-choice-2">zatox</label>
+        	<input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3">
+        	<label for="radio-choice-3">jebroer</label>
+        	<input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4">
+        	<label for="radio-choice-4">dj khaled</label>
+			<label for="select-choice-1" class="select">Select, native menu</label>
+			voor welke dag wil je een kaartje bestellen?<select name="select-choice-1" id="select-choice-1">
+   			<option value="standard">6 juli</option>
+    		<option value="rush">7 juli</option>
+    		<option value="express">8 juli</option>
+    		<option value="overnight">9 juli</option>
+			</select>
+			<button class="ui-shadow ui-btn ui-corner-all" formaction="/action_page2.php">versturen</button>
+		</fieldset>
+	</body>
+</html>
